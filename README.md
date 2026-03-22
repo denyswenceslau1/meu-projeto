@@ -1,1 +1,1 @@
-A simple HTML/JS/CSS starter template
+Projeto simples para demonstrar o uso básico do Git.
