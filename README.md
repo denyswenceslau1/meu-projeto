@@ -1,6 +1,6 @@
 # Meu Projeto Git
 
-Projeto simples para demonstrar o uso básico do Git.
+Projeto simples para aprender Git e GitHub Flow.
 
 ## Arquivos
 - README.md
