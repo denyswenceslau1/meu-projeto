@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gatinhos Aleatórios 🐱</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>🐱 Gatinhos Aleatórios</h1>
+      <p class="subtitle">Clique no botão e receba uma foto fofa de gatinho!</p>
+    </header>
+
+    <main>
+      <div class="card" id="card">
+        <div class="placeholder" id="placeholder">
+          <span class="placeholder-icon">🐾</span>
+          <p>Sua foto aparecerá aqui</p>
+        </div>
+        <img id="cat-image" src="" alt="Gatinho aleatório" class="hidden" />
+        <div class="loading hidden" id="loading">
+          <div class="spinner"></div>
+          <p>Buscando gatinho...</p>
+        </div>
+      </div>
+
+      <button class="btn" id="btn-fetch">
+        <span>Buscar Gatinho</span>
+        <span class="btn-icon">🐱</span>
+      </button>
+
+      <p class="error hidden" id="error-msg">
+        ⚠️ Ops! Não foi possível buscar o gatinho. Tente novamente.
+      </p>
+    </main>
+
+    <footer>
+      <p>Imagens fornecidas pela <a href="https://thecatapi.com" target="_blank">The Cat API</a></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
